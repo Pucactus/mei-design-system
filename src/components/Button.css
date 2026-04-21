@@ -13,7 +13,7 @@
 
 /* Variant 1: Primary */
 .btn-primary {
-    background-color: #0052FF;
+    background-color: #0015ff7c;
     color: #FFFFFF;
 }
 
@@ -25,8 +25,8 @@
 /* Variant 2: Secondary */
 .btn-secondary {
     background-color: transparent;
-    border: 1px solid #0052FF;
-    color: #0052FF;
+    border: 1px solid #0015ff7c;
+    color: #0015ff7c;
 }
 
 .btn-secondary:hover {
