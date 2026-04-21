@@ -1,0 +1,34 @@
+/* Hình dáng cơ bản của Component */
+.btn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+    /* Hiệu ứng chuyển màu mượt mà */
+}
+
+/* Variant 1: Primary */
+.btn-primary {
+    background-color: #0052FF;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover {
+    background-color: #003ECC;
+    /* Màu khi di chuột vào */
+}
+
+/* Variant 2: Secondary */
+.btn-secondary {
+    background-color: transparent;
+    border: 1px solid #0052FF;
+    color: #0052FF;
+}
+
+.btn-secondary:hover {
+    background-color: #E5EDFF;
+}
