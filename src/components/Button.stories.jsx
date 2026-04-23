@@ -14,7 +14,7 @@ export default {
     },
     size: {
       control: 'radio',  // Tạo nút radio bấm
-      options: ['small', 'large', '']
+      options: ['small', 'large']
     },
     label: {
       control: 'text' // Ô nhập chữ
